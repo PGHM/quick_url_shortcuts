@@ -1,6 +1,6 @@
 chrome.commands.onCommand.addListener(function(command) {
-	switch (command) {
-		case "Open URL shortcut #01":
+    switch (command) {
+        case "Open URL shortcut #01":
             openUrl('urlShortcut1');
             break;
         case "Open URL shortcut #02":
