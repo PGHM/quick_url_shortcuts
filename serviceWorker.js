@@ -85,7 +85,7 @@ function openUrl(key) {
             const url = new URL(urlString);
             chrome.tabs.create({ url: url.href });
         } catch (error) {
-            console.warning('Quick URL Shortcuts tried opening an invalid URL:', error);
+            console.warn('Quick URL Shortcuts tried opening an invalid URL:', error);
         }
     });
 }
