@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const optionsContainer = document.getElementById('optionsContainer');
-	const numberOfOptions = 25
+    const numberOfOptions = 25
 
     for (let i = 1; i <= numberOfOptions; i++) {
         const optionTitle = document.createElement('label');
