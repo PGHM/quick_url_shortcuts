@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const optionsContainer = document.getElementById('optionsContainer');
-	const numberOfOptions = 25
+    const numberOfOptions = 25
 
     for (let i = 1; i <= numberOfOptions; i++) {
         const optionTitle = document.createElement('label');
@@ -23,9 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
         optionInput.addEventListener('input', function() {
             const updatedOptionValue = {};
             updatedOptionValue[`urlShortcut${i}`] = optionInput.value;
-            chrome.storage.sync.set(updatedOptionValue, function() {
-                console.log(`Value for shortcut #${paddedNumberString} saved`);
-            });
+            chrome.storage.sync.set(updatedOptionValue, function() { });
         });
     }
 
