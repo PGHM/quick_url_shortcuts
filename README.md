@@ -6,10 +6,11 @@ I only ever "misused" the site search feature without actual "%s" string as a wo
 
 # How to use
 
-1. Go to the extension settings
-2. Assign as many urls as you need, remember which url you assigned to which number
-3. Go to `chrome://extensions/shortcuts` and assign keyboard shortcut to each number
-4. Now the url you assigned will open to a new tab when you invoke the keyboard shortcut
+1. Install the extension from [Chrome Web Store](https://chromewebstore.google.com/detail/quick-url-shortcuts/ogobhopommhbfnaghacgikgieebfadkf)
+2. Go to the extension settings
+3. Assign as many urls as you need, remember which url you assigned to which number
+4. Go to `chrome://extensions/shortcuts` and assign keyboard shortcut to each number
+5. Now the url you assigned will open to a new tab when you invoke the keyboard shortcut
 
 # Limitations
 
